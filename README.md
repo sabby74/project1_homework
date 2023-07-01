@@ -13,8 +13,8 @@
 ## BUILT WITH( technologies used ):
 ### 🔘 HTML
 ### 🔘 CSS
-### . JAVASCRIPT
-### . JQUERY
+### 🔘  JAVASCRIPT
+### 🔘  JQUERY
 
 ## PREREQUISITES (installations before you start) :
 ## jquery : you can dounload Jquery from: https://releases.jquery.com/ 
