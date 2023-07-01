@@ -11,8 +11,8 @@
 
 
 ## BUILT WITH( technologies used ):
-### . HTML
-###  . CSS
+### 🔘 HTML
+### 🔘 CSS
 ### . JAVASCRIPT
 ### . JQUERY
 
@@ -27,6 +27,6 @@
 
 # CONTACT INFO:
 
-### You can contact me on my social media @facebook/username.com
+### You can contact me on my facebook page media @facebook/username.com
 ### Please subscribe to my youtube channel www.youtube/myusername.com to get the latest updates
 
