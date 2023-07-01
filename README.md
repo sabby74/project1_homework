@@ -1,3 +1,3 @@
 # project1_homework
 
-first project 
+i am going to make site named " Get your hero!!"
