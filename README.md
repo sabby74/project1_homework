@@ -10,14 +10,13 @@
 ### . JAVASCRIPT
 ### . JQUERY
 
-## PREREQUISITES :
+## PREREQUISITES (installations before you start) :
 ## jquery : you can dounload Jquery from: https://releases.jquery.com/ 
 
 
 
 ## USAGE:
-### Here in this site you can get the details about your favorite 
-### Italic  Super Hero just by typing the name of your favorite "Super Hero" and press submit.  
+###   In this site you can get the details about your favorite "Super Hero" just by typing the name of your favorite "Super Hero" and press submit.  
 
 
 # 
