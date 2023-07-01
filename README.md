@@ -17,7 +17,7 @@
 
 ## USAGE:
 ### Here in this site you can get the details about your favorite 
-### italic  Super Hero just by typing the name of your favorite "Super Hero" and press submit.  
+### Italic  Super Hero just by typing the name of your favorite "Super Hero" and press submit.  
 
 
 # 
