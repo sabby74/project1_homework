@@ -1,17 +1,17 @@
 # project1_homework
-Table Of Content:
+### Table Of Content:
 
 
-# Title of the Site: " Get Your Hero!! "
+# Title :                        " Get Your Hero!! "
 
 # BUILT WITH:
-## .HTML
-## .CSS
-## .JAVASCRIPT
+### .HTML
+###  .CSS
+### .JAVASCRIPT
 ## .JQUERY
 
 # PREREQUISITES:
-## jquery : you can dounload j query from: https://releases.jquery.com/ 
+## jquery : you can dounload Jquery from: https://releases.jquery.com/ 
 
 
 
