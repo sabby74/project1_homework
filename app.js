@@ -32,5 +32,5 @@ $form.on("submit", (event)=>{
 event.preventDefault();
 let $input = $("input");
 console.log($input.val());
-})
+});
 
