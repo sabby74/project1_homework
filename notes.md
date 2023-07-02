@@ -1,5 +1,5 @@
-Hero name { name}
-Full Name { biography.fullname}
-image { images.md}
-Power Stats { powerstats.inteligence, powerstats.stregth,
-powerstats.speed}
+Hero name { name} :: done
+Full Name { biography.fullName} ;; done
+image { images.md} ;;; done 
+Power Stats { powerstats.inteligence, powerstats.stregth,::: done
+powerstats.speed} ;; done

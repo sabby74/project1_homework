@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-h1 {
+/* @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap'); */
+h2{
   color: green;
   font-family: 'Bungee Spice', cursive;
   font-size: 40px;
@@ -7,7 +7,7 @@ h1 {
   
 }
 img {
-  width: 300px;
+  width: 200px;
   height: 250;
   display: block;
   margin: auto;
