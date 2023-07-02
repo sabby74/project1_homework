@@ -1,9 +1,11 @@
 console.log("hello");
 
+
 const $name = $("#name");
 const $appearance = $("#appearance");
 const $biography = $("biography");
 const $powerstats = $("powerstats");
+
 
 // sending the request to get the data back to browser.
 const promise = $.ajax({
@@ -18,4 +20,3 @@ promise.then(
     console.log("bad request: ", error);
   }
 );
-
