@@ -1,4 +1,5 @@
 console.log("hello");
+let $form = $("form");
 
 
 const renderHero= (hero)=>{
@@ -26,3 +27,10 @@ promise.then(
     console.log("bad request: ", error);
   }
 );
+
+$form.on("submit", (event)=>{
+event.preventDefault();
+let $input = $("input");
+console.log($input.val());
+})
+
