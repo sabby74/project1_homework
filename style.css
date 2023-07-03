@@ -1,15 +1,43 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap'); */
-h2{
-  color: rgb(128, 0, 73);
-  font-family: 'Bungee Spice', cursive;
-  font-size: 40px;
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+h2 {
+  color: rgb(0, 128, 21);
+  font-family: "Bungee Spice", cursive;
+  font-size: 125px;
   text-align: center;
-  
 }
 img {
-  width: 200px;
-  height: 250;
   display: block;
   margin: auto;
-  object-fit: cover;
+  object-fit: inherit;
 }
+body {
+  background-color: rgb(236, 169, 226);
+}
+div {
+  color: rgb(9, 54, 114);
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  background: rgb(85, 197, 115);
+  width: 160px;
+  font-size: 20 30px;
+  text-align: center;
+  border: 6px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline;
+}
+h3 {
+  text-align: center;
+  color: rgb(8, 44, 151);
+  font-family: "Bungee Spice", cursive;
+  font-size: 40px;
+}
+form {
+  text-align: center;
+}
+#myhero {
+  color: white;
+}
+
