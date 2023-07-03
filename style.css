@@ -7,8 +7,11 @@ h2 {
 }
 img {
   display: block;
-  margin: auto;
+  margin: 0 auto;
   object-fit: inherit;
+  border: 6px solid white;
+  border-radius: 20px;
+  padding: 0px 0px 20px 0px 
 }
 body {
   background-color: rgb(236, 169, 226);
@@ -27,6 +30,8 @@ p {
   border-radius: 10px;
   padding: 10px;
   display: inline;
+  margin: 0 auro;
+  
 }
 h3 {
   text-align: center;
@@ -36,8 +41,39 @@ h3 {
 }
 form {
   text-align: center;
+  width: 100%;
 }
 #myhero {
   color: white;
 }
 
+header{
+  text-align: center;
+  color: white ;
+  background-size: cover;
+  margin: 0 auto;
+ 
+}
+ul{
+  padding: 20px;
+  background: rgb(138, 43, 226, .2);
+}
+li{
+  display: inline;
+  padding: 0px 30px 0px 30px;
+}
+a{
+  color: white;
+}
+
+@media (max-width: 500px){
+  body{
+    background: red;
+  }
+  li{
+    display: block;
+    padding: 5px;
+  }
+}
+
+  

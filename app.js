@@ -58,3 +58,10 @@ $form.on("submit", (event) => {
  
   );
 });
+
+$(document).ready(function() {
+    $("#myList li").click(function() {
+        let link = $(this).find("a").attr("href");
+        window.open(link, "_blank");
+    });
+});
