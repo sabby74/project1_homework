@@ -65,3 +65,24 @@ $(document).ready(function() {
         window.open(link, "_blank");
     });
 });
+
+
+$(document).ready(function() {
+    // Hide the button initially
+    $('#scrollToTopBtn').hide();
+  
+    // Show/hide the button based on scroll position
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 300) { // Adjust the value (in pixels) as needed
+        $('#scrollToTopBtn').fadeIn();
+      } else {
+        $('#scrollToTopBtn').fadeOut();
+      }
+    });
+  
+    // Scroll to top when the button is clicked
+    $('#scrollToTopBtn').click(function() {
+      $('html, body').animate({ scrollTop: 0 }, 'slow');
+      return false;
+    });
+  });
