@@ -73,7 +73,7 @@ $(document).ready(function() {
   
     // Show/hide the button based on scroll position
     $(window).scroll(function() {
-      if ($(this).scrollTop() > 300) { // Adjust the value (in pixels) as needed
+      if ($(this).scrollTop() > 200) { // Adjust the value (in pixels) as needed
         $('#scrollToTopBtn').fadeIn();
       } else {
         $('#scrollToTopBtn').fadeOut();
