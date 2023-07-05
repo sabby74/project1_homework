@@ -18,10 +18,12 @@ body {
   margin: 0;
   padding: 30px;
 }
-div {
+.hero {
   color: rgb(9, 54, 114);
   font-size: 20px;
   text-align: center;
+  justify-content: center;
+  display: flex-wrap;
 }
 p {
   background: rgb(85, 197, 115);
@@ -48,9 +50,7 @@ form {
 #scrollToTopBtn{
   text-align: right;
 }
-#myhero {
-  color: white;
-}
+
 
 header {
   text-align: center;
@@ -63,18 +63,20 @@ ul {
   padding: 45px 30px 0px 30px;
   background: rgba(175, 8, 8, 0.7);
   font-size: 30px;
-  height: 100px;
+  height: 80px;
+  width: 100%;
   position: relative;
 }
 li {
   display: inline;
   justify-content: center;
   padding: 20px 30px 0px 30px;
+
 }
 a {
   color: white;
 }
-
+/*----------------media query-------------------*/
 @media (max-width: 500px) {
   body {
     background: rgb(231, 248, 6);
@@ -98,6 +100,7 @@ p{
 }
 li{
   display: block;
+  background-color: rgb(30, 13, 218);
 }
 h3{
   font-size: 30px;
@@ -105,6 +108,10 @@ h3{
 }
 img{
   display: inline;
+}
+.hero{
+  color: white;
+  text-transform: capitalize
 }
 
 

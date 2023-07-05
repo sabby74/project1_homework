@@ -2,7 +2,7 @@
 let $form = $("form");
 
 const renderHero = (hero) => {
-  let $div = $(`<div> <h1> Hero Name :${hero.name}</h1> </div>`);
+  let $div = $(`<div class="hero"> <h1> Hero Name :${hero.name}</h1> </div>`);
   $div.append(`<img src= '${hero.images.lg}' alt='${hero.name}' width="650" height="650"/>`);
   $div.append(`<p>Full Name: ${hero.biography.fullName}</p>`);
   $div.append(`<p> Intelligence: ${hero.powerstats.intelligence}  </p>`);
@@ -68,15 +68,15 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-    // Hide the button initially
+    
     $('#scrollToTopBtn').hide();
   
     // Show/hide the button based on scroll position
     $(window).scroll(function() {
-      if ($(this).scrollTop() > 200) { // Adjust the value (in pixels) as needed
-        $('#scrollToTopBtn').fadeIn();
+      if ($(this).scrollTop() > 100) { // Adjust the value (in pixels) as needed
+        $('#scrollToTopBtn').show();
       } else {
-        $('#scrollToTopBtn').fadeOut();
+        $('#scrollToTopBtn').hide();
       }
     });
   
