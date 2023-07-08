@@ -68,21 +68,22 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-    
     $('#scrollToTopBtn').hide();
+    
   
-    // Show/hide the button based on scroll position
+   
     $(window).scroll(function() {
-      if ($(this).scrollTop() > 100) { // Adjust the value (in pixels) as needed
+      if ($(this).scrollTop() > 1000) {
+        // console.log($(this).scrollTop()); 
         $('#scrollToTopBtn').show();
       } else {
         $('#scrollToTopBtn').hide();
       }
     });
   
-    // Scroll to top when the button is clicked
+   
     $('#scrollToTopBtn').click(function() {
-      $('html, body').animate({ scrollTop: 0 }, 'slow');
+      $('html, body').animate({ scrollTop: 100}, 'slow');
       return false;
     });
   });
